@@ -29,6 +29,10 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       images: ["/images/logo.jpg"],
     },
+    robots: {
+      index: false,
+      follow: false,
+    },
   };
 }
 
